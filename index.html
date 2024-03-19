@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <h1><center>Number Guess Application</center></h1><br>
+        <h2><center>Select a number between 1 - 100 and Guess it!!!</center></h2><br>
+        <center><label for="">Guess a number </label></center>
+        <center><input type="number" name="number" id="n"></center>
+        <h2 id="res">Wait for the results</h2>
+        <center><h2>No of tries:</h2></center>
+        <h3 id="tries">0</h3>
+        <input type="submit" value="Check" onclick="check()" id="check">
+        <input type="submit" value="Reset" onclick="window.location.reload()" id="reset">
+        <script src="./design.js"></script>
+    </div>
+</body>
+</html>

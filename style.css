@@ -1,0 +1,22 @@
+#main{
+    margin-top: 140px;
+    margin-left: 540px;
+    height: 470px;
+    width: 400px;
+    border: 2px solid black;
+    text-align: center;
+    background: black;
+    border-radius: 50px;
+    color: white;
+}
+body{
+    background: yellow;
+}
+#check{
+    background: yellow;
+    border-radius: 50px;
+}
+#reset{
+    background: yellow;
+    border-radius: 50px;
+}
